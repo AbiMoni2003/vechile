@@ -1,6 +1,5 @@
 package com.example.vechile.service;
 
-
 import com.example.vechile.entity.Vehicle;
 import com.example.vechile.repo.VehicleRepository;
 import com.example.vechile.utility.EncryptionUtility;
@@ -21,7 +20,7 @@ public class VehicleService {
         BufferedReader br = new BufferedReader(new InputStreamReader(file.getInputStream()));
         String line;
         Vehicle vehicle = new Vehicle();
-        
+
         while ((line = br.readLine()) != null) {
             String[] parts = line.split(":");
             if (parts.length == 2) {

@@ -6,6 +6,9 @@ import com.example.vechile.repo.VehicleRepository;
 import com.example.vechile.utility.EncryptionUtility;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 
 @Service

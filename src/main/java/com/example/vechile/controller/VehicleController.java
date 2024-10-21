@@ -3,6 +3,7 @@ package com.example.vechile.controller;
 
 import com.example.vechile.entity.Vehicle;
 import com.example.vechile.service.VehicleDeService;
+
 import com.example.vechile.service.VehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class VehicleController {
 
     @Autowired
-    private VehicleService vehicleService;
+   private VehicleService vehicleService;
     @Autowired
     private VehicleDeService vehicleDeService;
 
